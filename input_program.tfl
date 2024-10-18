@@ -1,0 +1,22 @@
+task backup_files {
+    source: "/documents"
+    destination: "/backup"
+}
+
+if backup_files fails {
+    send "Backup failed!" to email("admin@example.com")
+}
+
+task incomplete_task {
+    source: "/files"
+}
+
+task 123task {
+    source: "/data"
+}
+
+task math_task {
+    result := 5 + 3
+}
+
+

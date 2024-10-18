@@ -1,0 +1,3 @@
+task quote_test {
+    string_value = "This is a string 
+}
