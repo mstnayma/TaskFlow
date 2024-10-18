@@ -144,9 +144,9 @@ Run the scanner again with your input file:
 
 OR 
 
-To run your shell script (run_scanner.sh), you can also follow these steps:
+To run shell script (run_scanner.sh): 
 Open your terminal.
-Navigate to your project directory where run_scanner.sh is located. You can use the cd command for this. For example:
+Navigate to where run_scanner.sh is located.
 Make sure the script is executable. If you haven’t done this yet, run:
 chmod +x run_scanner.sh
 Run the script with input file. For example:
